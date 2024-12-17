@@ -1,9 +1,9 @@
-//1- Select all buttons
+// Select all buttons
+const colorButtons = document.querySelectorAll('.color-btn');
 
-
-//2- Attach the changeColor function to each button
+// Attach the changeColor function to each button
 colorButtons.forEach(function(button) {
-    
+    button.addEventListener('click', changeColor);
   });
   
 //3- Add a click event listener to each button
